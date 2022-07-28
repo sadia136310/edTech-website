@@ -1,3 +1,22 @@
-.image-background {
-    filter: brightness(50%);
+.img-item {
+    background-color: black;
+}
+
+.image-backgound {
+    opacity: 0.5;
+    height: 700px;
+}
+
+/* For Mobile  */
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .image-backgound {
+        height: 300px;
+    }
+}
+
+/* For Tablet  */
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .image-backgound {
+        height: 500px;
+    }
 }
